@@ -35,3 +35,60 @@ section {
 
 /* Navigation */
 
+.navigation {
+   background: $color-blue;
+   padding: 12px 0;
+}
+
+.navigation ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.navigation li {
+   position: relative;
+   display: inline-block;
+   margin-right: 36px;
+}
+
+.navigation a {
+   text-decoration: none;
+   color: $color-white;
+   transition: 0.2s;
+
+   &:hover {
+      color: $color-green;
+   }
+}
+
+.navigation ul ul li {
+   display: block;
+   margin-bottom: 12px;
+   text-align: center;
+}
+
+.navigation li ul {
+   display: none;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.navigation li:hover ul {
+   display: block;
+   position: absolute;
+   background: $color-white;
+   border-radius: 10px;
+}
+
+.navigation li li a {
+   color: $color-blue;
+   display: block;
+   padding: 0 0 0 24px;
+   text-align: center;
+
+   &:hover {
+      color: $color-green;
+   }
+}
+
