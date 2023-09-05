@@ -1,0 +1,37 @@
+/* Variables */
+
+$color-blue: #0097e6;
+$color-white: #FFFFFF;
+$color-green: #33d9b2;
+$color-red: #ff5252;
+$color-text: #2c2c54;
+
+$text-body: 'Inconsolata', monospace;
+$text-head: 'Signika Negative', sans-serif;
+
+/* Global */
+
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-size: 16px;
+   line-height: 1.7;
+   font-family: $text-body;
+   color: $color-text;
+}
+
+.container {
+   max-width: 1140px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+section {
+   padding: 96px 0;
+}
+
+/* Navigation */
+

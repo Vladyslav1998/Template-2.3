@@ -1,0 +1,27 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Inconsolata", monospace;
+  color: #2c2c54;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 96px 0;
+}
+
+/* Navigation */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBV0EsV0FBQTtBQUVBO0VBQ0csc0JBQUE7QUNWSDs7QURhQTtFQUNHLFNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxxQ0FiUztFQWNULGNBaEJVO0FDTWI7O0FEYUE7RUFDRyxpQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0FDVkg7O0FEYUE7RUFDRyxlQUFBO0FDVkg7O0FEYUEsZUFBQSIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
