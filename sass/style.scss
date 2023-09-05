@@ -42,53 +42,48 @@ section {
 
 .navigation ul {
    list-style-type: none;
-   padding: 0;
    margin: 0;
+   padding: 0;
 }
 
-.navigation li {
-   position: relative;
+.navigation ul li {
    display: inline-block;
+   position: relative;
    margin-right: 36px;
 }
 
 .navigation a {
    text-decoration: none;
    color: $color-white;
-   transition: 0.2s;
-
    &:hover {
       color: $color-green;
    }
 }
 
+/* Second floor */
+
 .navigation ul ul li {
    display: block;
    margin-bottom: 12px;
-   text-align: center;
+   padding: 5px 24px;
+   margin: 0;
 }
 
 .navigation li ul {
    display: none;
-   left: 50%;
-   transform: translateX(-50%);
 }
 
 .navigation li:hover ul {
    display: block;
+   // text-align: center;
    position: absolute;
    background: $color-white;
+   left: 50%;
+   transform: translateX(-50%);
+   padding : 12px 0;
    border-radius: 10px;
 }
 
 .navigation li li a {
    color: $color-blue;
-   display: block;
-   padding: 0 0 0 24px;
-   text-align: center;
-
-   &:hover {
-      color: $color-green;
-   }
 }
-
