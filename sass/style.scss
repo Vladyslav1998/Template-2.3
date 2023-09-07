@@ -87,3 +87,38 @@ section {
 .navigation li li a {
    color: $color-blue;
 }
+
+/*Splash*/
+
+.splash {
+   background-color: $color-blue;
+   height: 500px;
+   display: flex;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.page-title {
+   color: $color-white;
+   font-size: 72px;
+   font-weight: 700;
+   line-height: 1.2;
+   word-spacing: -24px;
+   margin: 0;
+}
+
+.page-title span {
+   font-family: $text-head;
+   font-size: bold;
+   color: $color-white;
+}
+
+.page-subtitle {
+   color: $color-white;
+   font-size: 16px;
+   margin: 24px 0;
+   font-weight: 400;
+}
