@@ -22,6 +22,39 @@ section {
   padding: 96px 0;
 }
 
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #FFFFFF;
+}
+
+.section-title {
+  font-size: 48px;
+  margin: 0 0 72px 0;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  margin: 0 0 12px 0;
+}
+
 /* Navigation */
 .navigation {
   background: #0097e6;
@@ -107,6 +140,78 @@ section {
   font-size: 16px;
   margin: 24px 0;
   font-weight: 400;
+}
+
+.btn-one {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  background-image: linear-gradient(90deg, #FFFFFF 50%, transparent 50%);
+}
+
+.btn-one:hover {
+  color: #0097e6;
+}
+
+.btn-two {
+  color: #33d9b2;
+  border-color: #33d9b2;
+  background-image: linear-gradient(90deg, #33d9b2 50%, transparent 50%);
+}
+
+.btn-two:hover {
+  color: #FFFFFF;
+}
+
+.btn-three {
+  color: #ff5252;
+  border-color: #ff5252;
+  background-image: linear-gradient(90deg, #ff5252 50%, transparent 50%);
+}
+
+.btn-three:hover {
+  color: #FFFFFF;
+}
+
+.btn-four {
+  color: #0097e6;
+  border-color: #0097e6;
+  background-image: linear-gradient(90deg, #0097e6 50%, transparent 50%);
+}
+
+.btn-four:hover {
+  color: #FFFFFF;
+}
+
+/* Services */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.number {
+  position: absolute;
+  color: #33d9b2;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 144px;
+  line-height: 1;
+  top: -166px;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.wrapp {
+  flex: 0 0 33.333%;
+  position: relative;
+}
+
+.wrapp p:nth-child(3) {
+  font-weight: bold;
+  margin: 0;
+}
+
+.wrapp p:nth-child(4) {
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

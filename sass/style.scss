@@ -33,6 +33,41 @@ section {
    padding: 96px 0;
 }
 
+$transition: all 1s;
+
+.btn {
+   display: inline-block;
+   min-width: 160px;
+   margin: 24px auto 0 auto;
+   padding: 16px;
+   border-radius: 5px;
+   font-family: $text-body;
+   font-size: 16px;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   border-width: 2px;
+   border-style: solid;
+   background-position: 100% 0;
+   background-size: 300%;
+   transition: $transition;
+}
+
+.btn:hover {
+   background-position: 0 100%;
+   color: $color-white;
+}
+
+.section-title {
+   font-size: 48px;
+   margin: 0 0 72px 0;
+}
+
+.section-subtitle {
+   font-size: 24px;
+   margin: 0 0 12px 0;
+}
+
 /* Navigation */
 
 .navigation {
@@ -121,4 +156,77 @@ section {
    font-size: 16px;
    margin: 24px 0;
    font-weight: 400;
+}
+
+.btn-one {
+   color: $color-white;
+   border-color: $color-white;
+   background-image: linear-gradient(90deg, $color-white 50%, transparent 50%);
+}
+
+.btn-one:hover {
+   color: $color-blue;
+}
+
+.btn-two {
+   color: $color-green;
+   border-color: $color-green;
+   background-image: linear-gradient(90deg, $color-green 50%, transparent 50%);
+}
+
+.btn-two:hover {
+   color: $color-white;
+}
+
+.btn-three {
+   color: $color-red;
+   border-color: $color-red;
+   background-image: linear-gradient(90deg, $color-red 50%, transparent 50%);
+}
+
+.btn-three:hover {
+   color: $color-white;
+}
+
+.btn-four {
+   color: $color-blue;
+   border-color: $color-blue;
+   background-image: linear-gradient(90deg, $color-blue 50%, transparent 50%);
+}
+
+.btn-four:hover {
+   color: $color-white;
+}
+
+/* Services */
+
+.wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.number {
+   position: absolute;
+   color: $color-green;
+   font-family: $text-head;
+   font-size: 144px;
+   line-height: 1;
+   top: -166px;
+   z-index: -1;
+   opacity: 0.2;
+}
+
+.wrapp {
+   flex: 0 0 33.333%;
+   position: relative;
+}
+
+.wrapp p:nth-child(3) {
+   font-weight: bold;
+   margin: 0;
+}
+
+.wrapp p:nth-child(4) {
+   margin-top: 0;
 }
