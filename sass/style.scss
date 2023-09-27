@@ -206,19 +206,8 @@ $transition: all 1s;
    justify-content: space-between;
 }
 
-.number {
-   position: absolute;
-   color: $color-green;
-   font-family: $text-head;
-   font-size: 144px;
-   line-height: 1;
-   top: -166px;
-   z-index: -1;
-   opacity: 0.2;
-}
-
 .wrapp {
-   flex: 0 0 33.333%;
+   flex: 0 0 30%;
    position: relative;
 }
 
@@ -229,4 +218,15 @@ $transition: all 1s;
 
 .wrapp p:nth-child(4) {
    margin-top: 0;
+}
+
+.number {
+   position: absolute;
+   color: $color-green;
+   font-family: $text-head;
+   font-size: 144px;
+   line-height: 1;
+   top: -166px;
+   z-index: -1;
+   opacity: 0.2;
 }
